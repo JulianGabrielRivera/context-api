@@ -1,21 +1,20 @@
 /*   src/index.css   */
 /*     ... previous styles stay unchanged  */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
+ 
 .App {
   text-align: center;
   min-height: 100vh;
 }
-
+ 
 .HomePage,
 .ProjectsPage {
   padding: 20px;
   min-height: 100vh;
 }
-
+ 
 .Navbar {
   display: flex;
   justify-content: space-between;
@@ -24,7 +23,7 @@ code {
   font-weight: 600;
   border-bottom: 1px solid #000000a8;
 }
-
+ 
 .Navbar a {
   list-style: none;
   text-decoration: none;
@@ -33,27 +32,27 @@ code {
   font-size: 1.2rem;
   color: #000000;
 }
-
+ 
 .ProjectCard {
   padding: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5), 0 3px 6px rgba(0, 0, 0, 0.3);
   margin: 20px;
 }
-
+ 
 .selected {
   text-shadow: 1px 0px 3px white;
   border-bottom: rgba(230, 244, 77, 0.804) solid 2px;
   padding-bottom: 5px;
 }
-
+ 
 .btn {
   padding: 5px 20px;
 }
-
+ 
 .profile {
   width: 200px;
 }
-
+ 
 .theme-btn {
   padding: 2px 15px;
   font-size: 1rem;
